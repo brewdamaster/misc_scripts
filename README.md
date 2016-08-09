@@ -1,2 +1,3 @@
-# misc_scripts
-misc scripting and packaging
+# Introduction
+
+_This repo is for misc scripting and packaging_
