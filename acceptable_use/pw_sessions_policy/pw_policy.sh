@@ -1,12 +1,12 @@
 #!/bin/sh
 LOGGEDINUSER=$(ls -l /dev/console | awk '{print $3}')
 echo "LOGGEDINUSER is: $LOGGEDINUSER"
-PW_EXPIRE=90                    # 90 days password expiration
+PW_EXPIRE=90                    # 90 days password expiration (testing with 1)
 MIN_LENGTH=7                    # at least 7 chars for password
 MIN_NUMERIC=1                   # at least 1 number in password
 MIN_SPECIAL_CHAR=0              # at least one special character in password
 PW_HISTORY=4                    # remember last 4 passwords
-exemptAccount1="admin"          #Exempt account 
+exemptAccount1="admin"          #Exempt account
 echo "<dict>
  <key>policyCategoryPasswordChange</key>
   <array>
