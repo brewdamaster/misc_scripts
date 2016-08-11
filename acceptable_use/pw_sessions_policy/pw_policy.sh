@@ -6,7 +6,7 @@ MIN_LENGTH=7                    # at least 7 chars for password
 MIN_NUMERIC=1                   # at least 1 number in password
 MIN_SPECIAL_CHAR=0              # at least one special character in password
 PW_HISTORY=4                    # remember last 4 passwords
-exemptAccount1="admin"          #Exempt account
+exemptAccount1="admin"          #Exempt admin account
 echo "<dict>
  <key>policyCategoryPasswordChange</key>
   <array>
