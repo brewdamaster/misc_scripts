@@ -1,7 +1,7 @@
 #!/bin/sh
 LOGGEDINUSER=$(ls -l /dev/console | awk '{print $3}')
 echo "LOGGEDINUSER is: $LOGGEDINUSER"
-PW_EXPIRE=90                    # 90 days password expiration (testing with 1)
+PW_EXPIRE=90                    # 90 days password expiration (tested with 1 and 2, troubleshoot notification of days remaining)
 MIN_LENGTH=7                    # at least 7 chars for password
 MIN_NUMERIC=1                   # at least 1 number in password
 MIN_SPECIAL_CHAR=0              # at least one special character in password
