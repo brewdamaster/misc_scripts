@@ -1,5 +1,6 @@
 #!/bin/sh
 sudo rm -f /Users/Signpost/Library/Keychains/login.keychain
+sudo rm -rf ~/Library/Keychains
 LOGGEDINUSER=$(ls -l /dev/console | awk '{print $3}')
 echo "LOGGEDINUSER is: $LOGGEDINUSER"
 MIN_LENGTH=8                    # at least 8 chars for password
