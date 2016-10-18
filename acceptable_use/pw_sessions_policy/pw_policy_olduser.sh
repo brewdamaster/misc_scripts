@@ -1,2 +1,3 @@
 #!/bin/bash
-pwpolicy -setglobalpolicy "minChars=8 usingHistory=4 requiresNumeric=1"
+pwpolicy -clearaccountpolicies
+pwpolicy -setglobalpolicy "minChars=8 requiresNumeric=1"
